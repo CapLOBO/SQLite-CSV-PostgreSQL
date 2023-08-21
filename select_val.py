@@ -3,11 +3,11 @@ import psycopg2
 import csv
 
 conn = psycopg2.connect(
-    host="89.108.88.40",
-    database="taxi",
-    user="taxi_user",
-    port="5433",
-    password="gabellaTYI"
+    host="HOST",
+    database="DB_NAME",
+    user="USERNAME",
+    port="PORT",
+    password="PASSWORD"
 )
 
 cursor = conn.cursor()
